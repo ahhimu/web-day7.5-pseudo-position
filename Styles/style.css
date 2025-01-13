@@ -1,0 +1,56 @@
+h1{
+    color: cadetblue;
+    text-align: center;
+}
+h1:hover{
+    background-color: darkgoldenrod;
+    color: black;
+
+}
+/* Focused Example Start Here */
+input{
+    /* border: none; */
+}
+input:focus{
+    color: red;
+    border: 5px Solid greenyellow;
+    padding-left: 25px;
+    outline: 0;
+}
+/* Focused Example End Here */
+
+
+/* Visited Example Start Here */
+a:visited{
+    color:black;
+}
+/* Visited Example End Here */
+
+/* Styling nth or last or fist child styling Start here */
+
+/* first child styling */
+/* li:last-child{
+    background-color: aqua;
+    color: red;
+} */
+/* last child styling */
+/* li:first-child{
+    color:green;
+    background-color: black;
+} */
+
+/* Even number styling */
+/* li:nth-child(2n){
+    background-color: blue;
+} */
+
+
+/* Odd Number Styling */
+li:nth-child(2n+2){
+    background-color: blueviolet;
+}
+li:nth-child(2n+2):hover{
+    background-color: red;
+}
+
+/* Styling nth or last or fist child styling End here */
