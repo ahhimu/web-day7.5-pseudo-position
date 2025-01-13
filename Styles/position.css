@@ -1,0 +1,51 @@
+h1{
+    background-color: darkgreen;
+    color: red;
+    text-align: center;
+
+}
+h1:hover{
+    background-color: red;
+    color: darkgreen;
+    text-align: left;
+}
+
+.box{
+    border: 2px dotted plum;
+    width: 200px;
+    
+}
+
+  /* tulonamulok=relative  nijer jayga ta kokhonoi charbe na*/ 
+/* .ring{
+    position: relative;
+    top: 20px;
+    left: 50px;      
+} */
+  /* nijer jayga thakbe na    tar ager tulonay sorbe mean overall site e root er tulonay*/
+/* .ring{
+    position: absolute;
+    top:40px;
+} */
+
+.box{
+    position: relative;
+}
+.boy{
+    top: 70px;
+    border: 2px solid black;
+    z-index: 10;
+}
+
+.water{
+    top: -120px;
+    z-index: 5;
+    width: 150px;
+    /* border: 2 px solid pink; */
+}
+.ring
+{
+
+    z-index: ;
+    border: 2px solid red;
+}

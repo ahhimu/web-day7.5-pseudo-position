@@ -54,3 +54,17 @@ li:nth-child(2n+2):hover{
 }
 
 /* Styling nth or last or fist child styling End here */
+button{
+    background-color: aqua;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    color: Red;
+    text-align: center;
+}
+button a{
+    text-decoration: none;
+}
+button a:visited{
+    color: red;
+}
